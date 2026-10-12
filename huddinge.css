@@ -56,8 +56,9 @@
 }
 .iconsök{
     float: left;
-    width: 95%;
+    width: 6%;
     height: auto;
+    margin-top: 0.5%;
 }
 .sökruta2{
     float: left;
@@ -66,4 +67,49 @@
     height: 86.3%;
     background-color: rgb(51, 129, 149);
     margin-top: 0.22%;
+}
+
+.container3{
+    padding: 1% ;
+    background-color: rgb(242, 242, 242);
+    height: 1500px;
+    
+}
+
+.Meny{
+    width: 75%;
+    height: 85%;
+    background-color: rgb(252, 252, 252);
+    margin-left: 12.5%;
+    margin-top: -1%;
+}
+
+.iconmeny{
+    margin-left: 4%;
+    width: 90%;
+    height: auto;
+    padding: 1% ;
+    margin-top: -0.5%;
+}
+
+.Meny2{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.Meny2 button {
+    padding: 15px 0;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+}
+
+.Meny2 button:first-child {
+    border-top: 4px solid #166464;
 }
