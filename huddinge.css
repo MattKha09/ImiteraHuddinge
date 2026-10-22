@@ -95,14 +95,14 @@ input[type="submit"]:hover {
 .container3{
     padding: 1% ;
     background-color: rgb(242, 242, 242);
-    height: 2500px;
+    height: 3200px;
     
 }
 
 .Meny{
     
     width: 75%;
-    height: 60%;
+    height: 50%;
     background-color: rgb(252, 252, 252);
     margin-left: 12.5%;
     margin-top: -1%;
@@ -216,28 +216,154 @@ h4 {
 
 .MenyV2{
     width: 100%;
-    height: 10%;
+    height: 7%;
     background-color: rgb(252, 252, 252);
     margin-left: 12.5%;
-    margin-top: -1%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: -0%;
+    padding-top: 2%;
 }
 
-h8 {
+.Vkk{
+    font-size: 180%;
+    font-family: 'Roboto', sans-serif;
+     color: rgb(0, 136, 146);
+     text-decoration: none;
+ 
+
+}
+
+
+.VkTx {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+     width: 100%;
+    
+}
+
+.Vkk:hover {
+    text-decoration: underline;
+}
+
+.MenyV3{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(252, 252, 252);
+    margin-left: 0%;
+    margin-top: -1%;
+}
+
+.bb{
+    margin-left: 15%;
+    
+}
+.b0{
+    margin-left: 25%;
+}
+
+.b1 ul li a{
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+     color: rgb(1, 146, 156);
+    text-decoration: none;
+}
+
+.b2 ul li a{
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+     color: rgb(1, 146, 156);
+    text-decoration: none;
+}
+.b3 ul li a{
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 146, 156);
+    text-decoration: none;
+}
+
+.b1{
+ display: flex;
+    flex-direction: row;
+    padding: 2%;
+    margin-left: 1%;
+    margin-top: 5%;
+    border-bottom: 1px solid #ccc;
+    width: 60%;
+}
+.b2{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    border-bottom: 1px solid #ccc;
+    width: 60%;
+}
+
+.b3{
+   display: flex;
+    flex-direction: row;
+    padding: 2%;
+    border-bottom: 1px solid #ccc;
+    width: 60%;
+    
+}
+
+.b1 ul{
+    list-style-type: none;
+}
+.b2 ul{
+    list-style-type: none;
+}
+.b3 ul{
+    list-style-type: none;
+}
+
+.MenyV{
+    list-style-type: none;
+}
+
+.MenyV2{
+    list-style-type: none;
+}
+
+.b1:hover, .b2:hover, .b3:hover {
+    text-decoration: underline;
+}
+
+.Slut{
+    background-color: #078493;
+    height: 120px;
+    width: 10000px;
+    margin-left: -50%;
+    margin-top: 15%;
+ 
+}
+
+.info{
     font-size: 130%;
     margin-top: 1%;
     margin-left: 25%;
     font-family: 'Roboto', sans-serif;
-     width: 67%;
+    display:flex;
+    flex-direction: row;
+    
 }
 
-h9 {
-    font-size: 120%;
+.insta{
+    font-size: 130%;
     margin-top: 1%;
     margin-left: 25%;
     font-family: 'Roboto', sans-serif;
-     width: 67%;
+    display:flex;
+    flex-direction: row;
+}
+
+.info ul{
+    list-style-type: none;
+}
+
+.insta ul{
+    list-style-type: none;
 }
