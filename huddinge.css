@@ -54,19 +54,42 @@
     border-style: solid;
     margin-top: 0.25%;
 }
+input[type="text"] {
+   
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    float: left;
+    margin-left: 0%;
+    width: 45.71%;
+    height: 50%;
+    background-color: white;
+    margin-top: 0.25%;
+}
 .iconsök{
     float: left;
     width: 6%;
     height: auto;
     margin-top: 0.5%;
 }
-.sökruta2{
+
+input[type="submit"] {
+    background-color: rgb(51, 129, 149);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
     float: left;
     margin-left: 0.5%;
     width: 4.175%;
     height: 86.3%;
-    background-color: rgb(51, 129, 149);
     margin-top: 0.22%;
+}
+
+input[type="submit"]:hover {
+    text-decoration: underline;
 }
 
 .container3{
@@ -123,6 +146,10 @@
     border-top: 4px solid #25a1a1;
 }
 
+.Meny2 button:hover {
+    background-color: #DFEEEE;
+}
+
 h1 {
    
     
@@ -177,5 +204,40 @@ h4 {
 .vklass{
     width: 67%;
     height: auto;
-    margin-top: 25%;
+    margin-top: 20%;
+   
+}
+
+.vklass:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    
+}
+
+.MenyV2{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(252, 252, 252);
+    margin-left: 12.5%;
+    margin-top: -1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -0%;
+}
+
+h8 {
+    font-size: 130%;
+    margin-top: 1%;
+    margin-left: 25%;
+    font-family: 'Roboto', sans-serif;
+     width: 67%;
+}
+
+h9 {
+    font-size: 120%;
+    margin-top: 1%;
+    margin-left: 25%;
+    font-family: 'Roboto', sans-serif;
+     width: 67%;
 }
