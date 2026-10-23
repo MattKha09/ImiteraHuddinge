@@ -335,7 +335,7 @@ h4 {
 .Slut{
     background-color: #078493;
     height: 120px;
-    width: 10000px;
+    width: 168.6%;
     margin-left: -50%;
     margin-top: 15%;
  
@@ -365,5 +365,17 @@ h4 {
 }
 
 .insta ul{
+    list-style-type: none;
+}
+
+.webb{
+    width:12%;
+    height: auto;
+    margin-left: 22%;
+    margin-top: 1%;
+    
+}
+
+.webb li{
     list-style-type: none;
 }
